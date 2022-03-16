@@ -1,0 +1,155 @@
+body {
+  font-family: Gotham Rounded;
+  background-color:#BFCED6;;
+  margin:0;
+}
+
+p {
+   flood-color:white;
+}
+
+/* Nav (Menu) */
+nav {
+  position:fixed;
+  height:30px;
+  box-shadow: 0px 25px 5px 0px rgba(0,0,0,0.75);
+}
+
+code {
+   font-family:Courier;
+   background-color: #eee;
+}
+
+.rows-col-bio {
+   padding:40px 40px 40px 40px;
+   background-color: #a6afbc;
+   color: #A8D1E7;
+}
+
+
+#navi {
+    background-color:#BFCED6; /* สีแถบบน  */
+}
+
+#loogoo {
+  font-family:Gotham Rounded;
+  padding-left:15px;
+}
+
+
+/* Showcase */
+#showcase{
+  padding:90px 70px 20px 70px;
+  min-height:500px;
+  background:url('https://answers.ea.com/ea/attachments/ea/star-wars-galaxy-of-heroes-bug-report-en/11249/1/Screenshot_20180330-203412.png');
+  text-align:center;
+  letter-spacing: .05em;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:100px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:25px;
+}
+
+#showtitle {
+  font-family:Gotham Rounded;
+}
+
+
+#first {
+  grid-column-start:2;
+  background-color:#A8D1E7;
+  text-align: center;
+  color:#000000;
+  padding: 20px 20px 20px 20px;
+  margin:25px 0px 25px 10px;
+  box-shadow:10px rgb(0, 0, 0);
+  
+}
+
+#second {
+  grid-column-start:3;
+  text-align: center;
+  background-color:#A8D1E7;
+  color:#000000;
+  padding: 20px 20px 20px 20px;
+  margin:25px 10px 25px 10px;
+}
+
+#rows-col {
+   background-color:rgb(0, 0, 0);
+}
+
+#rows-col h2 {
+   padding-left: 30px;
+}
+
+#contact {
+  grid-column:span 4;
+  text-align: center;
+  background-color:#A8D1E7;
+  padding: 20px 20px 20px 20px;
+}
+
+#contact h3 {
+   font-family:Gotham Rounded;
+   color:rgb(0, 0, 0);
+}
+
+/* Particles 
+#particles-js {
+  height:100%;
+  background-color:transparent;
+}*/
+
+#middle {
+    text-align:center;
+}
+
+
+/* ------------------ */
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  #showcase h1{
+    margin-top:30%;
+    font-size: 50px;
+  }
+}

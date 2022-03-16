@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: dashed 6px rgba(233, 139, 139, 0.596);
+    padding: 0.2em 0.5em;
+    color: #454545;
+}
+
+.square {
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid #B3DBD8;
+    border-radius: 5px;
+}
+
+.red{
+    background-color: rgba(233, 139, 139, 0.596); 
+}
+.blue{
+    background-color: rgba(18, 18, 250, 0.651); 
+}
+
+.green{
+    background-color: rgba(138, 240, 138, 0.589); 
+}body {
+    font-family: 'kanit',sans-serif;
+    background: rgba(255, 242, 217, 0.582);
+}
+
+fieldset{
+    border: 10px solid #DFEFD0;
+    background-color: #B3DBD8;   
+}
+
+button{
+    background-color: #FCDEE2; 
+    border: 3px solid #f5f5f5;
+    font-family: 'kanit',sans-serif;
+}
+legend{
+    background-color: #FCDEE2; 
+    border: 5px solid #f5f5f5;
+    font-family: 'kanit',sans-serif;
+}
+
+

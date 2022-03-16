@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+.login-form h1{
+    font-size: 50px;
+    font-family: 'kanit',sans-serif;
+    background-color: #B3DBD8;
+    color: white;
+    height: 100px;
+    text-align: center;   
+    padding-top: 25px;
+    margin-top: 13px;
+}
+/*รูปโปรไฟล์*/
+.login-form i {
+    font-size: 200px;
+    margin-left: 630px;
+    color: #B3DBD8;
+    
+}
+
+
+.username #username {
+    margin-top: 40px;
+    margin-left: 530px;
+    width: 400px;
+    height: 70px;
+    border: 4px solid #B3DBD8;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'kanit',sans-serif;
+    padding-left: 20px;
+    outline: none;
+}
+
+
+.password #password {
+    margin-top: 40px;
+    margin-left: 530px;
+    width: 400px;
+    height: 70px;
+    border: 4px solid #B3DBD8;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'kanit',sans-serif;
+    padding-left: 20px;
+    outline: none;
+}
+
+#Login {
+    margin-top: 40px;
+    margin-left: 630px;
+    width: 200px;
+    height: 50px;
+    border: 4px solid #B3DBD8;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'kanit',sans-serif;
+    padding-left: 10px;
+    outline: none;
+}
+
+#Login:hover {
+    border: none;
+    cursor: pointer;
+    background-color: steelblue;
+    color: white;
+    transition: 0.5s;
+}
+
+#Register {
+    margin-top: 40px;
+    margin-left: 630px;
+    width: 200px;
+    height: 50px;
+    border: 4px solid #B3DBD8;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'kanit',sans-serif;
+    padding-left: 10px;
+    outline: none;
+}
+
+#Register:hover {
+    border: none;
+    cursor: pointer;
+    background-color: steelblue;
+    color: white;
+    transition: 0.5s;
+}
